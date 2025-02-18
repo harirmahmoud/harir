@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Amiri', serif; /* Arabic-style font */
+    background-color: #004d40; /* Rich green background */
+    color: white; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: #ffffff;
+    color: #004d40;
+    border: 5px solid #ffd700; /* Gold border */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Gold header text */
+}
+
+#day {
+    margin-bottom: 20px;
+}
+
+#day p {
+    font-size: 18px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#cards {
+    background-color: #004d40;
+    color: white;
+    border: 2px solid #ffd700; /* Gold border for cards */
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cards h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#u select {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #004d40; /* Rich green background for the select */
+    color: white;
+    border: 2px solid #ffd700; /* Gold border for the select */
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    appearance: none;
+}
+
+#u select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffd700;
+}
+
+hr {
+    border: 1px solid #ffd700;
+    margin: 20px 0;
+}
+
+/* Gold arrow for select dropdown */
+#u select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%204%205%27%3E%3Cpath%20fill%3D%27%23ffd700%27%20d%3D%27M2%200L0%202h4L2%200zM2%205L0%203h4L2%205z%27%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
